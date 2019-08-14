@@ -6,12 +6,12 @@
    <elementGuidId>a2e91186-9390-4c94-90b8-9f128f0640fb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'text' and @id = 'txt-username' and @placeholder = 'Username']</value>
+         <key>XPATH</key>
+         <value>//input[@id='txt-username']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='txt-username1']</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @id = 'txt-username' and @placeholder = 'Username']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
